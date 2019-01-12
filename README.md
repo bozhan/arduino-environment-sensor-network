@@ -48,7 +48,7 @@ of DH Destination Address High and DL Destination Number Low in the coordinator 
 SH Serial Number High and SL Serial Number Low in the Router\end-device configuration
 img/xbee cooridinator configuration.png
 
-<img alt="Communication sequence" src="https://github.com/bozhan/arduino-environment-sensor-network/blob/master/docs/img/comm-sequece.png" width="50%" height="50%">
+<img alt="Communication sequence" src="https://github.com/bozhan/arduino-environment-sensor-network/blob/master/docs/img/comm-sequece.png" width="100%" height="100%">
 
 Arduino Setup
 xb24 zigbee route AT
@@ -56,4 +56,4 @@ xb24 zigbee route AT
 zigbee rPi setup
 xb24 Zigbee coordinator AT
 
-<img alt="Communication sequence" src="https://github.com/bozhan/arduino-environment-sensor-network/blob/master/docs/img/xctu-xbee-conf.png" width="50%" height="50%">
+<img alt="XBee Setup" src="https://github.com/bozhan/arduino-environment-sensor-network/blob/master/docs/img/xctu-xbee-conf.png" width="100%" height="100%">
