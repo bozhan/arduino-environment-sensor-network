@@ -7,12 +7,14 @@ User a raspberryPi as a communication hub to deliver sensor results to a databas
 The sensor frequency can be controlled and updated by the rPi. THe rPi receives data and sends when next update should be sent
 Since the rPi used in the project is powerful enough, it can also be used as a cloud store and a web server and/or service provider.
 
-# Practical project hardware:
+# Hardware:
 	Arduino UNO/ATmega328
 	Raspberry Pi 2 B
 	WiFi Transever for Arduino
 	WiFi Transever for R Pi
 	Sensors: 2 Humidity (air and surface), 1 Light, 1 Temperature
+
+<img alt="Basic idea" src="https://github.com/bozhan/arduino-environment-sensor-network/blob/master/docs/img/basic-idea.png" width="50%" height="50%">
 
 # Tasks of components
 ## Arduino
@@ -38,14 +40,20 @@ Develop Database interface and save Arduino data persistantly
 Setup Web server
 Develop Webpage and report data
 
+<img alt="Concept" src="https://github.com/bozhan/arduino-environment-sensor-network/blob/master/docs/img/concept.png" width="50%" height="50%">
+
 # Communication & Setup
 To setup communication between coordinator and router we should setup the xctu values
 of DH Destination Address High and DL Destination Number Low in the coordinator should be matching the respective values of  
 SH Serial Number High and SL Serial Number Low in the Router\end-device configuration
 img/xbee cooridinator configuration.png
 
+<img alt="Communication sequence" src="https://github.com/bozhan/arduino-environment-sensor-network/blob/master/docs/img/comm-sequece.png" width="50%" height="50%">
+
 Arduino Setup
 xb24 zigbee route AT
 
 zigbee rPi setup
 xb24 Zigbee coordinator AT
+
+<img alt="Communication sequence" src="https://github.com/bozhan/arduino-environment-sensor-network/blob/master/docs/img/xctu-xbee-conf.png" width="50%" height="50%">
